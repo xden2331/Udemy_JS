@@ -1,5 +1,5 @@
  // students score, total possible score
- let grade2Percentage = function (score, total) {
+ let grade2Percentage = function (score = 100, total = 100) {
      let percentage = score/total * 100.0
      let grade = "F"
      if(percentage >= 90){
